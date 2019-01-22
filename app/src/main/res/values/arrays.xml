@@ -23,4 +23,16 @@
         <item>Gua gua</item>
         <item>Tiene leche merengada hay que vaca tan salada</item>
     </string-array>
+
+    <array name="fotos">
+        <item>@drawable/aguila</item>
+        <item>@drawable/ballena</item>
+        <item>@drawable/caballo</item>
+        <item>@drawable/canario</item>
+        <item>@drawable/delfin</item>
+        <item>@drawable/gato</item>
+        <item>@drawable/libro</item>
+        <item>@drawable/perro</item>
+        <item>@drawable/vaca</item>
+    </array>
 </resources>
