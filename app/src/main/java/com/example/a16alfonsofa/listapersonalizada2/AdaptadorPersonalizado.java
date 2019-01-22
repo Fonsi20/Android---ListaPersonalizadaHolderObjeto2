@@ -54,8 +54,11 @@ public class AdaptadorPersonalizado extends ArrayAdapter {
             holder = (ViewHolder) fila.getTag();
         }
 
-        if (position / 2 == 0) {
-            fila.setBackgroundColor(R.color.colorPrimary);
+        if (position%2 == 0) {
+            fila.setBackgroundColor(context.getResources().getColor(R.color.white));
+        }
+        else{
+            fila.setBackgroundColor(context.getResources().getColor(R.color.grey));
         }
 
         holder.txAnimal.setText(ani[position].getNombre());
